@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/vue-news-app/dist/',
+    assetsPublicPath: 'https://aitcweb.github.io/vue-news-app',
     proxyTable: {},
 
     // Various Dev Server settings
