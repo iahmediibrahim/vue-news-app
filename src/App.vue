@@ -19,7 +19,7 @@
             Made by
             <a
               class="white--text"
-              href="https://github.com/rachidsakara"
+              href="https://github.com/iahmediibrahim"
               target="_blank"
             >Ahmed Ibrahim</a>
           </div>
@@ -53,7 +53,6 @@ export default {
           this.api_key
       )
       .then(response => {
-        //this.articles = response.data.articles
         this.articles = response.data.articles;
         console.log("data:");
         console.log(response.data.articles); // This will give you access to the full object

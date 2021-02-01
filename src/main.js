@@ -10,16 +10,16 @@ import 'aos/dist/aos.css';
 
 Vue.use(Vuetify);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
-  el: "#app",
-  components: {
-    App
-  },
-  template: "<App/>",
-  created() {
-    AOS.init();
-  }
+    el: '#app',
+    components: {
+        App,
+    },
+    template: '<App/>',
+    created() {
+        AOS.init();
+    },
 });
