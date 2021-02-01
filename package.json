@@ -12,7 +12,7 @@
     "dependencies": {
         "vue": "^2.5.2",
         "aos": "^3.0.0-beta.6",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "vuetify": "^1.5.2"
     },
     "devDependencies": {
